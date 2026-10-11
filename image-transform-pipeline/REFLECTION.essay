@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "What trade-offs does your scheduler make between throughput and fairness?",
+        "zh-cn": "你的调度器在吞吐量与公平性之间做了哪些取舍？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would you distribute a million-image batch while preserving idempotency and deterministic result ordering?",
+        "zh-cn": "如何分布式处理一百万张图片，同时保证幂等性和确定的结果顺序？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "What production memory would you measure beyond the input-byte budget used by this exercise?",
+        "zh-cn": "除本题的输入字节预算外，生产环境还应测量哪些内存占用？"
+      },
+      "answer": ""
+    }
+  ]
+}

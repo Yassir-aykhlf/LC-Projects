@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "How would you make password update and code consumption atomic so that concurrent verification cannot succeed twice?",
+        "zh-cn": "如何让密码更新与重置码消耗成为原子操作，避免并发校验成功两次？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "What would you change about code generation, code storage and password hashing before using this workflow with real accounts?",
+        "zh-cn": "将此流程用于真实账户前，你会如何修改重置码生成、重置码存储及密码哈希？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you add attempt limits and reliable expiry when several service instances share a database?",
+        "zh-cn": "多个服务实例共享数据库时，如何加入尝试次数限制并保证过期判断可靠？"
+      },
+      "answer": ""
+    }
+  ]
+}

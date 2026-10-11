@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Explain the atomic boundary between a rejected edit and a saved strike.",
+        "zh-cn": "解释拒绝编辑与保存违规次数之间的原子边界。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would a remote checker timeout affect the write contract?",
+        "zh-cn": "远程检查器超时会如何影响写入契约？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you make violation tracking durable across service restarts?",
+        "zh-cn": "如何使违规记录在服务重启后仍然保留？"
+      },
+      "answer": ""
+    }
+  ]
+}

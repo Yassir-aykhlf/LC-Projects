@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SlotWise</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">Reservation incident lab</p>
+          <h1>SlotWise</h1>
+        </div>
+        <label for="user-select">
+          User
+          <select id="user-select">
+            <option value="1">Ada</option>
+            <option value="2">Lin</option>
+            <option value="3">Sam</option>
+          </select>
+        </label>
+      </header>
+
+      <p id="error" class="error" hidden></p>
+
+      <section aria-labelledby="sessions-heading">
+        <h2 id="sessions-heading">Upcoming sessions</h2>
+        <div id="sessions" class="grid" aria-live="polite"></div>
+      </section>
+
+      <section aria-labelledby="dashboard-heading">
+        <h2 id="dashboard-heading">Your dashboard</h2>
+        <div class="dashboard">
+          <article class="card">
+            <h3>Active</h3>
+            <ul id="active-reservations"></ul>
+          </article>
+          <article class="card">
+            <h3>Cancelled</h3>
+            <ul id="cancelled-reservations"></ul>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

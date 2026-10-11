@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "How did you choose tests around thresholds?",
+        "zh-cn": "如何选择阈值附近的测试？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would policy versioning preserve explainability for past decisions?",
+        "zh-cn": "如何通过策略版本保留历史决策的可解释性？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you distinguish invalid input from a policy rejection in metrics?",
+        "zh-cn": "指标应如何区分无效输入与策略拒绝？"
+      },
+      "answer": ""
+    }
+  ]
+}

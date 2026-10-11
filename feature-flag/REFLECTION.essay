@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Why does the rollout hash include both `flag_key` and `user_id`, but not the rollout percentages? How does that choice affect assignment stability when a rollout grows?",
+        "zh-cn": "为什么 rollout 分桶的哈希同时包含 `flag_key` 和 `user_id`，却不包含 rollout 百分比？当 rollout 比例扩大时，这个设计如何影响分流的稳定性？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How does your implementation prevent an evaluation from seeing half of an update?",
+        "zh-cn": "你的实现如何保证评估不会读取到只完成了一部分的配置更新？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you share flag configuration across multiple service instances while keeping assignments stable?",
+        "zh-cn": "如何在多个服务实例之间共享功能开关配置，同时保持用户分流结果稳定？"
+      },
+      "answer": ""
+    }
+  ]
+}

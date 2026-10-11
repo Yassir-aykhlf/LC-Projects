@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "What must be atomic for a retry to return an existing issue reliably?",
+        "zh-cn": "重试要可靠返回已有问题，哪些操作必须原子化？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would you expire idempotency keys without breaking clients?",
+        "zh-cn": "如何为幂等键设置过期机制，同时保持客户端行为正确？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "Compare optimistic version checks with database row locking.",
+        "zh-cn": "比较乐观版本检查与数据库行锁。"
+      },
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Explain how failed mutations leave committed data unchanged.",
+        "zh-cn": "解释失败修改如何保证已提交数据不变。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "What database constraint prevents duplicate memberships?",
+        "zh-cn": "什么数据库约束防止重复电影关系？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you paginate a large watchlist without changing ownership guarantees?",
+        "zh-cn": "如何为大型列表分页，同时保持所有权保障？"
+      },
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Explain the architectural tradeoffs of using a synchronous threading.Lock() versus using an asyncio.Lock().",
+        "zh-cn": "说明使用同步 threading.Lock() 与使用 asyncio.Lock() 在架构上的权衡。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "Explain how this architectural design would need to evolve for a multi-instance, horizontally scaled deployment (e.g., migrating from in-memory state to a distributed cache like Redis or Memcached).",
+        "zh-cn": "说明在多实例、水平扩展部署中，这种架构设计需要如何演进（例如从内存状态迁移到 Redis 或 Memcached 这样的分布式缓存）。"
+      },
+      "answer": ""
+    }
+  ]
+}

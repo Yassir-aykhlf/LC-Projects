@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "How would you detect and handle a file that changes between discovery, hashing, and exact comparison?",
+        "zh-cn": "如何检测并处理在 discovery、hash 和精确比较之间发生变化的文件？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How should hard links, inode identity, and repeated paths affect grouping and storage savings?",
+        "zh-cn": "Hard link、inode identity 和重复路径应如何影响分组与存储节省量？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would you choose queue, open-file, and worker bounds for local disks, network filesystems, and object storage?",
+        "zh-cn": "对本地磁盘、网络文件系统和对象存储，应如何选择 queue、打开文件数和 worker 上限？"
+      },
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Explain the ordering between a configuration update and an in-flight check.",
+        "zh-cn": "解释配置更新与进行中检查的先后顺序。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would you add appeals without losing the violation audit history?",
+        "zh-cn": "如何支持申诉又不丢失违规审计历史？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "What changes when substring matching must support millions of keywords?",
+        "zh-cn": "当子串匹配需要支持数百万关键词时应如何调整？"
+      },
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Explain the invariant that prevents double funding and how you tested it.",
+        "zh-cn": "说明防止重复放款的不变量及其测试方法。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "Describe how you would move balances and loans into a transactional database.",
+        "zh-cn": "如何将余额和贷款迁移到事务数据库？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "How would repayment idempotency differ from forbidding overpayment?",
+        "zh-cn": "还款幂等性与禁止超额还款有什么区别？"
+      },
+      "answer": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "How did you distinguish candidate exclusion from scoring?",
+        "zh-cn": "如何区分候选排除与评分？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "How would you prevent popularity from overwhelming personalization in a new policy?",
+        "zh-cn": "新策略中如何避免热度压倒个性化？"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "What snapshot or version would you use if catalogue and ratings changed during a request?",
+        "zh-cn": "请求期间目录和评分变化时应使用什么快照或版本？"
+      },
+      "answer": ""
+    }
+  ]
+}

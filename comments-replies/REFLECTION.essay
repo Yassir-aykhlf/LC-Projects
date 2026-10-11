@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "title": "Q1",
+      "prompt": {
+        "en": "Explain why the entire read-modify-write sequence in add_comment and add_reply must run inside a single lock, and discuss the tradeoffs between one global lock and per-post locks.",
+        "zh-cn": "说明为什么 add_comment 与 add_reply 的整个读-改-写过程必须放在同一把锁内完成，并讨论使用单一全局锁与 per-post 锁之间的权衡。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q2",
+      "title": "Q2",
+      "prompt": {
+        "en": "Explain why the service must return serialized snapshots instead of internal objects, and what could go wrong if get_comments returned internal lists or objects directly, especially under concurrent reads and writes.",
+        "zh-cn": "说明为什么服务必须返回序列化快照而不是内部对象，以及如果 get_comments 直接返回内部列表或对象会出现什么问题，尤其是在并发读写场景下。"
+      },
+      "answer": ""
+    },
+    {
+      "id": "q3",
+      "title": "Q3",
+      "prompt": {
+        "en": "Explain how this design would need to evolve for a multi-instance, horizontally scaled deployment, including ID generation and snapshot semantics.",
+        "zh-cn": "说明在多实例、水平扩展部署下这套设计需要如何演进，包括 ID 生成与快照语义。"
+      },
+      "answer": ""
+    }
+  ]
+}
